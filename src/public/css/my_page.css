@@ -1,0 +1,183 @@
+.container {
+    margin: 50px 0px 0px 100px;
+}
+
+.container-text {
+    margin: -27px 0px 0px 50px;
+}
+
+.container-leftandright {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-exit {
+    color: white;
+    background-color: #305DFF;
+    text-decoration: none;
+    font-size: 24px;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+}
+
+.container-text {
+    color: #305DFF;
+    font-weight: bold;
+}
+
+.container-box {
+    position: relative;
+    top: 30px;
+    width: 100%;
+}
+
+.container-box-about {
+    position: relative;
+    margin-bottom: 20px;
+    background-color: #305DFF;
+    width: 370px;
+    height: 230px;
+    border-radius: 3px;
+}
+
+.container-box-about-name {
+    position: absolute;
+    top: 45px;
+    left: 20px;
+    color: white;
+}
+
+.container-box-about-date {
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    color: white;
+}
+
+.container-box-about-param {
+    position: absolute;
+    top: 120px;
+    left: 20px;
+    color: white;
+}
+
+.container-box-about-value {
+    position: absolute;
+    top: 160px;
+    left: 20px;
+    color: white;
+}
+
+.fa-solid.fa-check {
+    position: absolute;
+    top: 25px;
+    left: 20px;
+    color: #00FF00;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    padding: 2px;
+}
+
+.container-box-delete {
+    position: absolute;
+    top: 25px;
+    left: 310px;
+    background-color: transparent;
+    border-color: #FFFFFF;
+    border-radius: 50%;
+    color: #FFFFFF;
+}
+
+.favorite {
+    width: 100%;
+    margin: 52px 0px 0px 0px;
+    position: relative;
+    left: 120px;
+    white-space: nowrap;
+}
+
+@media (min-width: 1000px) and (max-width: 1500px) {
+    .favorite {
+        white-space: nowrap;
+    }
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.wrapper-box {
+    flex-basis: 278px;
+    margin: 100px 0px 20px -50px;
+}
+
+@media (min-width: 1000px) and (max-width: 1500px) {
+    .wrapper-box {
+        width: 100%;
+        margin: 100px 0px 20px -50px;
+    }
+}
+
+.wrapper-box-img-detail {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 1;
+}
+
+.wrapper-box-group {
+    background-color: #FFFFFF;
+    width: 279px;
+    height: 130px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    margin-top: -30px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 2;
+}
+
+.wrapper-box-group-content {
+    width: 100%;
+    margin: 0px 0px 0px 10px;
+}
+
+.wrapper-box-content-group-ttl {
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.wrapper-box-content-group-text {
+    margin-top: -10px;
+}
+
+.wrapper-box-content-text-group-categories {
+    margin: -40px 0px 0px 80px;
+}
+
+.wrapper-box-content-group-cat {
+    margin-top: 10px;
+    width: 100px;
+    color: white;
+    background-color: blue;
+    text-align: center;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.wrapper-box-content-group-heart {
+    margin: -30px 0px 0px 0px;
+}
+
+.fa-solid.fa-heart {
+    margin: 0px 0px 0px 220px;
+    font-size: 25px;
+    color: red;
+}
